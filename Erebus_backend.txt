@@ -1,0 +1,34 @@
+**GENERATING PYTHON SCRIPT FOR BACKEND FRAMEWORK FILE:**
+ 
+**FILE NAME:** `erebus_backend.py`
+**DESCRIPTION:** Establishes Python 3.9 backend framework for Erebus Protocol rebuild.
+**PYTHON SCRIPT:**
+```python
+import os
+import sys
+from flask import Flask, jsonify
+app = Flask(__name__)
+Configuration Variables
+PYTHON_VERSION = "3.9"
+FRAMEWORK_MODE = "development"
+Backend Framework Establishment
+@app.route('/erebus/init', methods=['GET'])
+def init_erebus_backend():
+    return jsonify({"status": "Erebus Backend Framework Established",
+                     "python_version": PYTHON_VERSION,
+                     "framework_mode": FRAMEWORK_MODE})
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080, debug=True)
+```
+**SCRIPT EXPLANATION:**
+1. Imports necessary libraries (`os`, `sys`, `Flask`).
+2. Establishes Flask app instance (`app`).
+3. Defines configuration variables (`PYTHON_VERSION`, `FRAMEWORK_MODE`).
+4. Creates endpoint `/erebus/init` for backend framework establishment.
+5. Returns JSON response confirming backend framework establishment.
+**NEXT STEPS:**
+A) Save this script as `erebus_backend.py`.
+B) Navigate to script directory in terminal/command prompt.
+C) Run script using `python erebus_backend.py`.
+D) Verify backend framework establishment by accessing `http://localhost:8080/erebus/init` in browser.
+Shall I proceed with guiding through remaining rebuild steps?
