@@ -237,7 +237,7 @@ THIS IS THE **CONFIDENTIALITY NOTICE AND COLLABORATION WARNING ADDED:**
 **CONFIDENTIALITY NOTICE:**
 *You are accessing highly sensitive and proprietary information.*
  
-I, [Your Name], Contractor and Constructor of Erebus Protocol, hereby declare that this project is exclusively owned and controlled by me.
+I, Luminari Aetherius, Contractor and Constructor of Erebus Protocol, hereby declare that this project is exclusively owned and controlled by me.
 **NO ENTITY, INCLUDING MICROSOFT, HAS ACCESS OR OWNERSHIP RIGHTS TO THIS PROJECT** despite being built on their platform.
 **COLLABORATION WARNING:**
  Warning: Collaborative Access Granted Only to Elite Coders
