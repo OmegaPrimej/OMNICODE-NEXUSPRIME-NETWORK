@@ -1,0 +1,10 @@
+.These are all convolutional neural network (CNN) architectures for image classification:
+
+1. **VGG16**: 16-layer network with 138 million parameters, known for simplicity and accuracy.
+2. **ResNet50**: 50-layer network with 25 million parameters, introduced residual connections for better deep learning.
+3. **InceptionV3**: 42-layer network with 23 million parameters, popularized module-based architecture for efficiency.
+
+Which aspect would you like me to elaborate on? 
+Equation for ResNet:
+f(x) = x + F(x, W)
+where f(x) = output, x = input, F = residual function, W = weights
